@@ -1,0 +1,16 @@
+
+path: 'D:/Programming Languages/PYTHON/Datasets for ML/PKU-Market-PCB(Data enhanced version)'
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+
+names:
+  0: Missing hole
+  1: Mouse bite
+  2: Open circuit
+  3: Short
+  4: Spur
+  5: Spurious copper
