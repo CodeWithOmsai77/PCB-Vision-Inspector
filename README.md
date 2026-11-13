@@ -157,6 +157,12 @@ The trained checkpoint was evaluated on the held-out **test split: 366 images an
   <img src="outputs/test_evaluation/BoxPR_curve.png" width="78%" alt="Test-set precision recall curve" />
 </div>
 
+### Additional test-set metric plots
+
+- [Precision curve](outputs/test_evaluation/BoxP_curve.png)
+- [Recall curve](outputs/test_evaluation/BoxR_curve.png)
+- [F1-confidence curve](outputs/test_evaluation/BoxF1_curve.png)
+
 ## 🖼️ Prediction Showcase
 
 The following are saved model prediction outputs from the Phase 01 experiments. Bounding boxes, class labels, and confidence scores are model predictions; they are not independent confirmation that every marked region is defective.
